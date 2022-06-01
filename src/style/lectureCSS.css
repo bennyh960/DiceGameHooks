@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  /* 10px = 1rem */
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+/* Player comonent */
+.player {
+  /* border: 1px solid black; */
+}
+
+.shaul {
+  background: rgb(185, 183, 183);
+}
+.sharona {
+  background: rgb(215, 215, 215);
+}
+
+.current-score {
+  background: red;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+/* controller component */
+.controller2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 10rem;
+  height: 80%;
+  /* border: 1px solid black; */
+}
+
+.Dice-11 {
+  width: 10rem;
+  height: 10rem;
+  background-size: cover;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+.dice1 {
+  background-image: url("../assets/images/dice-1.png");
+}
+.dice2 {
+  background-image: url("../assets/images/dice-2.png");
+}
+.dice3 {
+  background-image: url("../assets/images/dice-3.png");
+}
+.dice4 {
+  background-image: url("../assets/images/dice-4.png");
+}
+.dice5 {
+  background-image: url("../assets/images/dice-5.png");
+}
+.dice6 {
+  background-image: url("../assets/images/dice-6.png");
+}
